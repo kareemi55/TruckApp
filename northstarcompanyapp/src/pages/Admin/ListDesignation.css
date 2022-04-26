@@ -1,0 +1,20 @@
+.loginscreennavbarclr {
+    background-color: #789395;   
+   
+    }
+
+ 
+ /* Right colom CSS */
+
+ .listdesouterbody{   
+    padding-top: 25vh;
+    
+}
+
+ .listdesinnerbody{
+   padding-top: 5vh;
+   padding-left: 5%;
+   padding-right: 5%;
+   background-color: #dde3e7;
+   padding-bottom: 5vh;
+ }

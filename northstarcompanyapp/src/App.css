@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+  
+  font-family: 'Lato', sans-serif;
+}
+
+/* start Employee login css screen  */
+   
+.loginscreennavbarclr {
+   background-color: #789395;   
+  
+   }
+
+
+   .loginscreenbody{
+    padding-top: 15vh;
+    padding-left: 35%;
+    padding-right: 35%;
+    background-color: #dde3e7;
+    padding-bottom: 5vh;
+    height: 90vh;
+   }
+
+   .employeeloginheading{
+
+    padding-top: 30%;
+   }
+
+   .emploginbtn {
+    padding-top: 25px;
+
+   }
+   
+   .poweredby{
+    padding-top: 15vh;
+    padding-left: 54%;
+
+   }
+/* End Employee login css screen  */
+
+
+
+/* list Employee table css starts here */
+
+.lempsecondcolm1 {
+
+  padding-top: 5vh;
+  padding-left: 1%;
+  padding-right:1%;
+  background-color: #dde3e7;
+  padding-bottom: 5vh;
+}
+
+/* List Employee table css starts here  */
+
+.listempdata {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1rem;
+}
+
+.listempdata table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.listempdata th,
+td {
+  border: 1px solid #ffffff;
+  text-align: left;
+  padding: 8px;
+  font-size: 13px;
+}
+
+.listempdata th {
+  background-color: #789395;
+  color: white;
+  
+}
+
+.listempdata td {
+  background-color: rgb(205, 235, 253);
+}
+
+.listempdata form {
+  display: flex;
+  gap: 5px;
+}
+
+.listempdata form td:last-child {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.listempdata form * {
+  font-size: 10px;
+}
+
+/* List Employee table css Ends here  */
+
+
+/* css for billty form starts from here */
+.newbilltyform {
+
+  padding-top: 5vh;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #dde3e7;
+  padding-bottom: 5vh;
+}
+
+
+.additemheader {
+  padding-top: 5vh;
+  text-align: center;
+}
