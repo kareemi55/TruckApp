@@ -5,11 +5,11 @@
 
 .nav-main{
     position: absolute;
-    top: 20%;
-    left: 17%;
-    transform: translate(-50%, -50%);
-    width: 400px;
-    line-height: 40px;
+    top: 10%;
+    left: 5px;
+    /* transform: translate(-50%, -50%); */
+    width: 250px;
+    line-height: 30px;
     padding: 8px 25px;
     background-color: #789395;
     /* line-height: 40px; */
@@ -19,7 +19,7 @@
 
 nav label {
     color: white;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 500;
     display: block;
     cursor: pointer;

@@ -3,19 +3,17 @@ import { useState } from 'react';
 
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 // import Switch from 'react-router-dom';
-import Dashboard from './pages/Dashboard';
-import AddEmployeeA from './pages/Admin/EmployeeRegistration';
-import ListEmployeeA from './pages/Admin/ListEmployeeA';
-import AddStation from './pages/Admin/AddStation';
-import AddDesignation from './pages/Admin/AddDesignation';
-import EmployeeRegistration from './pages/Admin/EmployeeRegistration';
-import NewBillty from './pages/BookingOfficer/NewBillty';
+
+import Sidebar from './components/Sidebar'; 
+import RegEmployee from './pages/Admin/employee/RegEmployee';
 import EmpLogin from './pages/login/EmpLogin';
 import AdminLogin from './pages/login/AdminLogin';
-import Sidebar from './components/Sidebar';
-import ListStation from './pages/Admin/ListStation';
-import ListDesignation from './pages/Admin/ListDesignation';
-import AddNewCustomer from './pages/BookingOfficer/AddNewCustomer';
+import AddStation from './pages/Admin/station/AddStation';
+import RegCustomer from './pages/stationbranch/customer/RegCustomer';
+import ListBillties from './pages/stationbranch/billty/ListBillties';
+import Billty from './pages/stationbranch/billty/Billty';
+import Item from './pages/stationbranch/Items/Item';
+
 
 
 function App() {
@@ -24,20 +22,16 @@ function App() {
     <Router>
     <Routes>
      
-       <Route path='/' element={<EmpLogin/>} />
-       <Route path='/AdminLogin' element={<AdminLogin/>} /> 
-        <Route path='/sidebar' element={<Sidebar />} /> 
-        <Route path='/dashboard' element={<Dashboard/>} />
-        <Route path='/employeeregistration' exact element ={<EmployeeRegistration/>} />
-        <Route path='/listEmployees' exact element ={<ListEmployeeA/>} />
-        <Route path='/addstation' exact element ={<AddStation/>} />
-        <Route path='/adddesignation' exact element ={<AddDesignation/>} />
-        <Route path='/liststation' exact element ={<ListStation/>} />
-        <Route path='/listdesignation' exact element ={<ListDesignation/>} />
-        <Route path='/addnewcustomer' exact element ={<AddNewCustomer/>} />
-        <Route path='/addnewbillty' exact element ={<NewBillty/>} />
-    
-        </Routes>
+          <Route path='/' element={<EmpLogin/>} />
+          <Route path='/AdminLogin' element={<AdminLogin/>} /> 
+          <Route path='/sidebar' element={<Sidebar />} /> 
+          <Route path='/RegEmployee' element={<RegEmployee/>} />
+          <Route path='/Station' element={<AddStation/>} />
+          <Route path='/Customer' element={<RegCustomer/>} />
+          <Route path='/listbillties' element={<ListBillties/>} />
+          <Route path='/billty' element={<Billty/>} />
+          <Route path='/item' element={<Item/>} />
+    </Routes>
         
         
         </Router>

@@ -1,0 +1,25 @@
+/* Navbar background color  */
+.loginscreennavbarclr {
+    background-color: #789395;   
+   
+    }
+
+ 
+ /* Right colom CSS */
+
+ .listempouterbody{   
+    padding-top: 10vh;
+    
+    
+  }
+ .listempinnerbody{
+   padding-top: 5vh;
+   padding-left: 5%;
+   padding-right: 5%;
+   background-color: #dde3e7;
+   padding-bottom: 5vh;
+ }
+
+
+ 
+ 

@@ -43,13 +43,15 @@ const Sidebar = () => {
                 {/* <li><a></a>Home</li> */}
                 <li>
                     <label for="btn-2">Administrator
-                    <span for="btn-2" className="fa fa-caret-down"></span>
+                    {/* <span for="btn-2" className="fa fa-caret-down"></span> */}
                     </label>
                     <input type="checkbox" id="btn-2"/>
                     <ul>
                       <Link to='/EmployeeRegistration'>
                         <li><a>Employee Registration</a></li></Link>
+                        <Link to='/ListEmployees'>
                         <li><a>List Employee</a></li>
+                        </Link>
                         <Link to='/addstation'>
                         <li><a>Add Station</a></li>
                         </Link>
@@ -79,8 +81,12 @@ const Sidebar = () => {
                     </label>
                     <input type="checkbox" id="btn-5" />
                     <ul>
+                    <Link to='/addnewcustomer'>
                         <li><a>Add Customer</a></li>
+                    </Link>    
+                    <Link to='/addnewbillty'>
                         <li><a>New Bilty</a></li>
+                    </Link>    
                         <li><a>List Bilties</a></li>
                         <li><a>New Challan</a></li>
                         <li><a>List Challan</a></li>

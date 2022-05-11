@@ -60,7 +60,7 @@ return(
   </Navbar>
 
   {/* starting of main body */}
-  <Container className="ml-2" >
+  <Container className="ml-2 " >
 
       <div  className="loginscreenbody">
 
