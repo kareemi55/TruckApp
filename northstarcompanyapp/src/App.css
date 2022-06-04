@@ -43,76 +43,68 @@
 
 /* list Employee table css starts here */
 
-.lempsecondcolm1 {
+/* .lempsecondcolm1 {
 
   padding-top: 5vh;
   padding-left: 1%;
   padding-right:1%;
   background-color: #dde3e7;
   padding-bottom: 5vh;
-}
+} */
 
 /* List Employee table css starts here  */
 
-.listempdata {
+/* .listempdata {
   display: flex;
   flex-direction: column;
   gap: 10px;
   padding: 1rem;
-}
+} */
 
-.listempdata table {
+ table {
   border-collapse: collapse;
   width: 100%;
 }
 
-.listempdata th,
+ th,
 td {
   border: 1px solid #ffffff;
-  text-align: left;
+  text-align: center;
   padding: 8px;
   font-size: 13px;
 }
 
-.listempdata th {
+ th {
   background-color: #789395;
-  color: white;
+  color: rgb(27, 21, 21);
   
 }
 
-.listempdata td {
+td {
   background-color: rgb(205, 235, 253);
 }
 
-.listempdata form {
-  display: flex;
-  gap: 5px;
+Form {
+  /* display: flex;  */
+  gap: 2px;
 }
 
-.listempdata form td:last-child {
+Form.Control {
+  height: 10px;
+
+}
+
+ /* Form td:last-child {
   display: flex;
   justify-content: space-evenly;
-}
+} */
 
-.listempdata form * {
-  font-size: 10px;
+ Form * {
+  padding-top: 2px;
+  /* font-size: 15px; */
 }
 
 /* List Employee table css Ends here  */
 
 
 /* css for billty form starts from here */
-.newbilltyform {
-
-  padding-top: 5vh;
-  padding-left: 10%;
-  padding-right: 10%;
-  background-color: #dde3e7;
-  padding-bottom: 5vh;
-}
-
-
-.additemheader {
-  padding-top: 5vh;
-  text-align: center;
-}

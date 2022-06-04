@@ -1,0 +1,26 @@
+.header-title {
+   text-align: center;
+   
+   padding-top: 10px;
+}
+
+.billty-title {
+    text-align: left;
+    padding-left: 2%;
+    
+    padding-top: 20px;
+ }
+
+/* .billty-info-row{
+padding-top: 25px;
+padding-left: 25%;
+font-style: bold;
+
+} */
+
+.itemtable {
+padding-top: 25px;
+padding-left: 3%;
+padding-right: 3%;
+
+}

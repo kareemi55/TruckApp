@@ -1,0 +1,41 @@
+/* Navbar background color  */
+.loginscreennavbarclr {
+    background-color: #789395;   
+   
+    }
+
+ 
+ /* Right colom CSS */
+
+ .addcustouterbody{   
+    padding-top: 5vh;
+    /* padding-left: 15%;
+    padding-right: 15%; */
+    
+    
+  }
+ .addcustinnerbody{
+   padding-top: 5vh;
+   padding-left: 5%;
+   padding-right: 5%;
+   background-color: #dde3e7;
+   padding-bottom: 5vh;
+ }
+
+ 
+ .empregbtn{  
+  padding-top: 20px;
+  
+  
+ }
+ .empregbtn Button{
+   background: #789395;
+   
+ }
+ 
+ .empregheader{
+  /* text-align: center; */ 
+ 
+  padding-bottom: 2vh; 
+  
+ }

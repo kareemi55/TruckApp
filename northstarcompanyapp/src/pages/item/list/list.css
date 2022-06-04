@@ -1,0 +1,14 @@
+.listouterbody{   
+    padding-top: 5vh;
+    /* padding-left: 15%;
+    padding-right: 15%; */
+    
+    
+  }
+ .listinnerbody{
+   padding-top: 5vh;
+   padding-left: 5%;
+   padding-right: 5%;
+   background-color: #dde3e7;
+   padding-bottom: 5vh;
+ }
