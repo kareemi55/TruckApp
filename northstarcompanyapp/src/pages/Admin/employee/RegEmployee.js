@@ -7,29 +7,7 @@ import './RegEmployee.css';
 import ListEmployeeA from "./ListEmployee";
 
 const RegEmployee = () => {
-
-      const [employee , setEmployee] = useState({
-             ename:"",
-             fname:"",
-             cnic:"",
-             mobile:"",
-             email:"",
-             date:"",
-             designation:"",
-             station:"",
-             caddress:"",
-             paddress:"",
-             password:""
-      
-      });
-   
-      const {ename, fname, cnic, mobile, email, date, designation , station , caddress , paddress, password} = employee;
-      const onInputChange = e => {
-            setEmployee({ ...employee, [e.target.name]: e.target.value });
-          };
-
-
-
+    
     return (
       <>
       <Navbar className="loginscreennavbarclr"  variant="dark"> <Container fluid>
@@ -71,9 +49,7 @@ const RegEmployee = () => {
                 required
                 type="text"
                 placeholder="Name"
-                name="ename"
-                value={ename}
-                onChange={e => onInputChange(e)}
+                
             
                 />
                 </Form.Group>  </Col>
@@ -84,9 +60,7 @@ const RegEmployee = () => {
                 required
                 type="text"
                 placeholder="Father Name"
-                name="fname"
-                value={fname}
-                onChange={e => onInputChange(e)}
+                
                 />
       </Form.Group> </Col></Row>
 
@@ -98,9 +72,7 @@ const RegEmployee = () => {
                 required
                 type="text"
                 placeholder="Correct CNIC"
-                name="cnic"
-                value={cnic}
-                onChange={e => onInputChange(e)}
+               
             
                 />
                 </Form.Group>  </Col>
@@ -111,9 +83,7 @@ const RegEmployee = () => {
                 required
                 type="text"
                 placeholder="Current Mobile No"
-                name="mobile"
-                value={mobile}
-                onChange={e => onInputChange(e)}
+               
             
                 />
       </Form.Group> </Col></Row>
@@ -126,9 +96,7 @@ const RegEmployee = () => {
                 required
                 type="text"
                 placeholder="Current Email"
-                name="email"
-                value={email}
-                onChange={e => onInputChange(e)}
+               
             
                 />
                 </Form.Group>  </Col>
@@ -139,9 +107,7 @@ const RegEmployee = () => {
                 required
                 type="date"
                 placeholder="Current Date "
-                name="date"
-                value={date}
-                onChange={e => onInputChange(e)}
+              
                 />
       </Form.Group> </Col></Row>
 
@@ -153,9 +119,7 @@ const RegEmployee = () => {
                 required
                 type="text"
                 placeholder="select"
-                name= "designation"
-                value={designation}
-                onChange={e => onInputChange(e)}
+                
             
                 />
                 </Form.Group>  </Col>
@@ -166,9 +130,7 @@ const RegEmployee = () => {
                 required
                 type="text"
                 placeholder="select  "
-                name= "station"
-                value={station}
-                onChange={e => onInputChange(e)}
+               
             
                 />
       </Form.Group> </Col></Row>
@@ -181,9 +143,7 @@ const RegEmployee = () => {
                 required
                 type="text"
                 placeholder="Current Address"
-                name= "caddress"
-                value={caddress}
-                onChange={e => onInputChange(e)}
+               
             
                 />
              
@@ -195,9 +155,7 @@ const RegEmployee = () => {
                 required
                 type="text"
                 placeholder="Permenent Address"
-                name= "paddress"
-                value={paddress}
-                onChange={e => onInputChange(e)}
+              
             
                 />
              
@@ -211,9 +169,7 @@ const RegEmployee = () => {
                 required
                 type="text"
                 placeholder="Password"
-                name= "password"
-                value={password}
-                onChange={e => onInputChange(e)}
+                
             
                 />
                 </Form.Group>  </Col>

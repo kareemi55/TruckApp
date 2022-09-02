@@ -5,8 +5,16 @@ CREATE DATABASE northstardb;
 -- superadmin table ****
 CREATE TABLE users(
     user_id SERIAL PRIMARY KEY,
+    name VARCHAR(28) NOT Null,
+    fathername VARCHAR(28) NOT Null,
+    cnic VARCHAR(13) NOT Null,
+    mobile VARCHAR(12) NOT Null,
     email VARCHAR(255) UNIQUE NOT Null,
+    created_at TIMESTAMPTZ DEFAULT Now(),
+    designation VARCHAR(28) NOT Null,
     station VARCHAR(28),
+    currentAddress VARCHAR(128),
+    permenentAddress VARCHAR(128),
     password VARCHAR(255) NOT Null
 );
 

@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
-import AuthContext from "../Context/AuthContext";
-import AuthService from "../services/AuthService";
 import { Navbar, Container, Row, Badge } from 'react-bootstrap';
 import {Link, } from "react-router-dom";
 import logo from "../../assets/images/logo.png";

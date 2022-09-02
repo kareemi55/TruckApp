@@ -6,36 +6,13 @@ import {Link, } from "react-router-dom";
 import logo from "../../assets/images/logo.png";
 import { logDOM } from "@testing-library/react";
 import { Navigate, useNavigate } from 'react-router-dom';
-import { setUserSession } from '../Utils/common';
+// import { setUserSession } from '../Utils/common';
 import axios from 'axios';
 // import useHistory from 'useHistory';
 
 
 
 export default function AdminLogin() {    
- const [username, setUsername] = useState('');
- const [password, setPassword] = useState('');
- const [error, setError] = useState(null);
- const [loading, setLoading] = useState(null);
-
- const navigate = useNavigate();
-const handleLogin = () => {
-  setError(null);
-  setLoading(null);
-  axios.post('http://localhost:16000/user/login',{
-    username: username,
-    password: password
-  }).then(response => {
-    setLoading(false);
-    setUserSession(response.data.token, response.data.user)
-    navigate('/sidebar');
-    alert('Welcome to Administration Dashboard')
-  }).catch(error => {
-    setLoading(false);
-    alert('wrong username or password')
-    console.error('error :', error);
-  })
-}
 
 return(
       <>
@@ -76,8 +53,7 @@ return(
             type="string"
             placeholder="Admin ID"
             name="username"
-            value = {username}
-            onChange = {(e) => setUsername(e.target.value)}
+           
           />
       </Form.Group>
 
@@ -87,9 +63,7 @@ return(
             required
             type="password"
             placeholder="Password"
-           name="password"
-           value = {password}
-           onChange = {(e) => setPassword(e.target.value)}
+          
           />
       </Form.Group>
 
@@ -99,9 +73,7 @@ return(
         <Row className="emploginbtn ">
           {/* <Col xs={10} md={6} ></Col> */}
           
-           <Button variant="secondary" 
-           value={loading ? "loading..." : "login"}
-           onClick={handleLogin}>
+           <Button variant="secondary" >
              Login
            </Button>
           

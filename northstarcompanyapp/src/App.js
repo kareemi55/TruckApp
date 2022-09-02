@@ -14,7 +14,7 @@ import Billty from './pages/billty/new/New'
 import Item from './pages//item/new/New';
 import Payment from './pages/payment/new/New';
 import PrintBillty from './pages/payment/invoice/PrintBillty';
-
+import Sidebar from './components/sidebar/Sidebar';
 
 
 function App() {
